@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 4px;
+    
+}
+#nav h3{
+    font-size: 20px;
+    border: 1.5px solid black;
+    padding: 4px 9px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav i{
+    font-size: 20px;
+    border: 1.5px solid black;
+    padding: 3px 5px;
+    border-radius: 50px;
+    font-weight: 500; 
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 20px;
+    font-weight: 600;
+}
+#btn2{
+    background: orangered;
+    color: white;
+    border: none;
+}
+#_1{
+    /* color: red; */
+    font-size: 140px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    object-position: top;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    font-size: 25px;
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 22px;
+}
+#_2 i{
+    position: absolute;
+    bottom: 9%;
+    right: 13%;
+    font-size: 27px;
+    
+}
+#_3 i{
+    position: absolute;
+    bottom: 9%;
+    right: 11%;
+    font-size: 27px;
+    
+}
+#_4 i{
+    position: absolute;
+    bottom: 9%;
+    right: 9%;
+    font-size: 27px;
+    
+}
+#nav-part2 i{
+    
+    font-size: 19px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 400; 
+    position: absolute;
+    top: 2%;
+    left: 41%;
+    background-color: orangered;
+
+}
+@media (max-width:600px) {
+    #main{
+        flex-direction: column;
+       
+    }
+    
+    #nav{
+        width: 100%;
+        height: 40px;
+    }
+    #nav-part2 i{
+        position: absolute;
+        top: 1%;
+        left: 29%;
+    }
+    /* add */
+    #img{
+        height: 10px;
+    width: 300px;
+    
+    }
+    #_1{
+        /* color: red; */
+        font-size: 90px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        
+}
+#nav h3{
+    font-size: 18px;
+}
+#nav i{
+    font-size: 18px;
+}
+#nav h1{
+    
+    font-size: 18px;
+}
+#nav button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+#btm-left{
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    font-size: 20px;
+}
+#btm-right{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    font-size: 18px;
+}
+#_2 i{
+    position: absolute;
+    bottom: 7%;
+    right: 20%;
+    font-size: 22px;
+    
+}
+#_3 i{
+    position: absolute;
+    bottom: 7%;
+    right: 15%;
+    font-size: 22px;
+    
+}
+#_4 i{
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+    font-size: 22px;
+    
+}
+}
